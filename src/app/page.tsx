@@ -1,6 +1,7 @@
 'use client';
 import "../../styles/globals.css";
 import HomeStyle from "../../styles/home.module.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Home() {
   return <HomePage />
@@ -13,6 +14,7 @@ function HomePage() {
         <div className={HomeStyle.top}>
           <img src="https://www.ba.senac.br/assets/template/images/senac_logo_branco.png" alt="Senac Logo" />
           <h1>Projetos Alunos Senac</h1>
+          <GiHamburgerMenu />
         </div>
       </div>
 
@@ -35,7 +37,7 @@ function Content() {
         <h2>Sobre nós</h2>
         <div className={HomeStyle.contentBox}>
           <p>
-            &#160; A turma Front-End do <strong>SENAC</strong> é composta por alunos talentosos e apaixonados por tecnologia. Cada um deles possui habilidades únicas em programação, design, e desenvolvimento web, e estão sempre em busca de novos desafios para aprimorar seus conhecimentos.<br />
+            &#160; A turma Front-End do <strong>SENAC</strong> (2023.29.6) é composta por alunos talentosos e apaixonados por tecnologia. Cada um deles possui habilidades únicas em programação, design, e desenvolvimento web, e estão sempre em busca de novos desafios para aprimorar seus conhecimentos.<br />
             &#160; Ao longo do curso, os alunos desenvolveram projetos, com objetivos claros, metodologias bem estruturadas e resultados surpreendentes. Eles enfrentaram desafios, encontraram soluções criativas e aprenderam lições valiosas ao longo do processo.
           </p>
           <img src="https://iili.io/JCGyYAJ.png" alt="" />
