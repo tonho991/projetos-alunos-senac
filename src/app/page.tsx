@@ -1,7 +1,6 @@
 'use client';
 import "../../styles/globals.css";
-import HomeStyle from "../../styles/home.module.css";
-import { GiHamburgerMenu } from "react-icons/gi";
+import HomeStyle from "../../styles/home.module.css"
 
 export default function Home() {
   return <HomePage />
@@ -12,9 +11,10 @@ function HomePage() {
     return (
       <div>
         <div className={HomeStyle.top}>
-          <img src="https://www.ba.senac.br/assets/template/images/senac_logo_branco.png" alt="Senac Logo" />
-          <h1>Projetos Alunos Senac</h1>
-          <GiHamburgerMenu />
+          <div>
+            <img src="https://www.ba.senac.br/assets/template/images/senac_logo_branco.png" alt="Senac Logo" />
+            <h1>Projetos Alunos Senac</h1>
+          </div>
         </div>
       </div>
 
@@ -25,6 +25,7 @@ function HomePage() {
     <div>
       <NavBar />
       <Content />
+      <Footer />
     </div>
   )
 }
@@ -84,6 +85,20 @@ function ProjectList() {
       }
     </>
   );
+}
+
+function Footer() {
+  return (
+    <div className={HomeStyle.footer}>
+      <p>
+        Desenvolvido por Marco Antonio
+      </p>
+      <div id="dropmenu" className={HomeStyle.gitUser} onClick={() => { loadUrl("https://github.com/tonho991") }}>
+        <img className={HomeStyle.gitProfile} src="https://avatars.githubusercontent.com/u/67771574?s=96&v=4" />
+        tonho991
+      </div>
+    </div>
+  )
 }
 
 function loadUrl(url: string) {
