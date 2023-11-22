@@ -30,13 +30,13 @@ function Content() {
   return (
     <>
       <div className={HomeStyle.content}>
-        <h2>Sobre nós</h2>
+        <h2 style={{ marginTop: 80 + "px "}}>Sobre nós</h2>
         <div className={HomeStyle.contentBox}>
           <p>
             &#160; A turma Front-End do <strong>SENAC</strong> (2023.29.6) é composta por alunos talentosos e apaixonados por tecnologia. Cada um deles possui habilidades únicas em programação, design, e desenvolvimento web, e estão sempre em busca de novos desafios para aprimorar seus conhecimentos.<br />
             &#160; Ao longo do curso, os alunos desenvolveram projetos, com objetivos claros, metodologias bem estruturadas e resultados surpreendentes. Eles enfrentaram desafios, encontraram soluções criativas e aprenderam lições valiosas ao longo do processo.
           </p>
-          <img src="https://iili.io/JCGyYAJ.png" alt="" />
+          <img src="/alunos_photo.jpeg" alt="" />
         </div>
       </div>
       <div className={HomeStyle.projectsContent}>
