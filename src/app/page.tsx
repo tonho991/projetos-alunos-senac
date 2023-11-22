@@ -2,30 +2,25 @@
 import "../../styles/globals.css";
 import HomeStyle from "../../styles/home.module.css"
 
-export default function Home() {
-  return <HomePage />
-}
-
-function HomePage() {
-  const NavBar = () => {
-    return (
-      <div>
-        <div className={HomeStyle.top}>
-          <div>
-            <img src="https://www.ba.senac.br/assets/template/images/senac_logo_branco.png" alt="Senac Logo" />
-            <h1>Projetos Alunos Senac</h1>
-          </div>
-        </div>
-      </div>
-
-    )
-  }
-
+export default function handler() {
   return (
     <div>
-      <NavBar />
+      <Top />
       <Content />
       <Footer />
+    </div>
+  )
+}
+
+function Top() {
+  return (
+    <div>
+      <div className={HomeStyle.top}>
+        <div>
+          <img src="https://www.ba.senac.br/assets/template/images/senac_logo_branco.png" alt="Senac Logo" />
+          <h1>Projetos Alunos Senac</h1>
+        </div>
+      </div>
     </div>
   )
 }
