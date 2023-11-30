@@ -60,6 +60,48 @@ function ProjectList() {
       author: "Maria Lara",
       projectUrl: "https://github.com/tainamlara/041023",
       projectIcon: "https://avatars.githubusercontent.com/u/146250293",
+    },
+    {
+      projectName: "Nick",
+      author: "Nicolly",
+      projectUrl: "https://github.com/nickievellys/nick",
+      projectIcon: "https://avatars.githubusercontent.com/u/146247603?v=4",
+    },
+    {
+      projectName: "Analu10",
+      author: "Ana Luiza",
+      projectUrl: "https://github.com/yyanalu/Analu10",
+      projectIcon: "https://avatars.githubusercontent.com/u/146776763?v=4",
+    },
+    {
+      projectName: "Project 2.0",
+      author: "Nathan",
+      projectUrl: "https://github.com/comedordeconcreto/projeto2.0.git",
+      projectIcon: "https://avatars.githubusercontent.com/u/146487968?v=4",
+    },
+     {
+      projectName: "Angelin",
+      author: "Luan",
+      projectUrl: "https://github.com/Ldias9/angelin",
+      projectIcon: "https://avatars.githubusercontent.com/u/146251205?v=4",
+    },
+    {
+      projectName: "Kris",
+      author: "Kristiany Santos",
+      projectUrl: "https://github.com/kris0119/Kris",
+      projectIcon: "https://avatars.githubusercontent.com/u/142239011?v=4",
+    },
+     {
+      projectName: "GustavoVicente",
+      author: "Gustavo",
+      projectUrl: "https://github.com/gustavosuperplay/GustavoVicente",
+      projectIcon: "https://avatars.githubusercontent.com/u/146247844?v=4",
+    },
+    {
+      projectName: "Kaiqueaula",
+      author: "Kaique",
+      projectUrl: "https://github.com/observad0/kaiqaula",
+      projectIcon: "https://avatars.githubusercontent.com/u/146248364?v=4",
     }
   ];
 
