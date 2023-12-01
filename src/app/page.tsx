@@ -81,7 +81,7 @@ function ProjectList() {
     },
      {
       projectName: "Angelin",
-      author: "Luan",
+      author: "Luã Dias",
       projectUrl: "https://github.com/Ldias9/angelin",
       projectIcon: "https://avatars.githubusercontent.com/u/146251205?v=4",
     },
